@@ -1,0 +1,51 @@
+canvas {
+    height: 600px;
+    width: 600px;
+    background-size: contain;
+    box-shadow: 4px 4px 10px 0px orange, -6px -4px 10px 0px;
+}
+/* 
+img {
+    /* display: none; */
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px 0px aqua;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(38, 38, 38);
+    gap: 2rem;
+    padding: 1rem;
+}
+h1 {
+    color: aqua;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline 2px solid aqua;
+    text-underline-offset: 5px;
+}
+@media screen and (max-width: 650px) {
+    canvas {
+        transform: scale(0.5);
+        margin-top: -150px;
+    }
+    button {
+        margin-top: -150px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    button {
+        font-size: 1rem;
+    }
+}
